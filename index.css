@@ -6,13 +6,11 @@
 .aside1 {
     background-color: aqua;
     height: 5vh;
-    float: left;
 }
 
 .aside2 {
     background-color: forestgreen;
     height: 5vh;
-    float: right;
 }
 
 .body {
