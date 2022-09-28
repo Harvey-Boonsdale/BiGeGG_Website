@@ -1,0 +1,27 @@
+.header {
+    background-color: lavender;
+    height: 10vh;
+}
+
+.aside1 {
+    background-color: aqua;
+    height: 5vh;
+    float: left;
+}
+
+.aside2 {
+    background-color: forestgreen;
+    height: 5vh;
+    float: right;
+}
+
+.body {
+    background-color: antiquewhite;
+    height: 70vh
+}
+
+.footer {
+    background-color: aqua;
+    height: 10vh;
+}
+
