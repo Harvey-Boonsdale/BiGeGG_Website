@@ -1,9 +1,10 @@
 body {
     height:100vh;
+    color: #365b6d;
+    background-color: f2f1ec;
 }
 
 .appContainer {
-    background-color: lightgoldenrodyellow;
     height: 100vh;
     width: 100vw;
     padding: 0px;
@@ -11,25 +12,22 @@ body {
 }
 
 .header {
-    background-color: lavender;
     height: 10vh;
 }
 
 .aside1 {
     display: flex;
     text-align: center;
-    background-color: aqua;
     height: 5vh;
     
 }
 
 .aside2 {
-    background-color: forestgreen;
     height: 5vh;
 }
 
 .body {
-    background-color: antiquewhite;
+
     height: 80vh;
     padding-left: 5%;
     padding-right: 5%;
@@ -37,24 +35,20 @@ body {
 }
 
 .footer {
-    background-color: lightcoral;
     height: 10vh;
     text-align: center;
 }
 
 .box1 {
     flex: 1;
-    background-color: white;
 }
 
 .box2 {
     flex: 1;
-    background-color: wheat;
 }
 
 .box3 {
     flex: 1;
-    background-color: whitesmoke;
 }
 
 
@@ -81,17 +75,14 @@ body {
 
     .box1 {
         flex: 1;
-        background-color: white;
 }
 
     .box2 {
         flex: 1;
-        background-color: wheat;
 }
 
     .box3 {
         flex: 1;
-        background-color: whitesmoke;
 }
 
 }
