@@ -16,8 +16,11 @@ body {
 }
 
 .aside1 {
+    display: flex;
+    text-align: center;
     background-color: aqua;
-    height: 5vh
+    height: 5vh;
+    
 }
 
 .aside2 {
@@ -38,6 +41,22 @@ body {
     height: 10vh;
 }
 
+.box1 {
+    flex: 1;
+    background-color: white;
+}
+
+.box2 {
+    flex: 1;
+    background-color: wheat;
+}
+
+.box3 {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+
 @media only screen and (min-width: 768px) {
     /* For Desktop View */
 
@@ -47,15 +66,31 @@ body {
     } 
 
     .aside1 {
-    float: left;
-    height: 80vh;
-    width: 10vw;
+        float: left;
+        flex-direction: column;
+        height: 80vh;
+        width: 10vw;
 }
 
-.aside2 {
-    float: right;
-    height: 80vh;
-    width: 10vw;
+    .aside2 {
+        float: right;
+        height: 80vh;
+        width: 10vw;
+}
+
+    .box1 {
+        flex: 1;
+        background-color: white;
+}
+
+    .box2 {
+        flex: 1;
+        background-color: wheat;
+}
+
+    .box3 {
+        flex: 1;
+        background-color: whitesmoke;
 }
 
 }
