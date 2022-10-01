@@ -39,6 +39,7 @@ body {
 .footer {
     background-color: lightcoral;
     height: 10vh;
+    text-align: center;
 }
 
 .box1 {
