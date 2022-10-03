@@ -63,6 +63,21 @@ body {
     max-width: 650px;
 }
 
+#releases {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    margin: 15px;
+}
+
+#contact {
+    text-align: center;
+}
+
 
 @media only screen and (min-width: 768px) {
     /* For Desktop View */
